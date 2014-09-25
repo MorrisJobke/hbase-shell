@@ -37,5 +37,5 @@ EXPOSE 16020
 EXPOSE 16030
 
 # Run standalone HBase and HBase shell
-CMD bash bin/start-hbase.sh && sleep 30 && bash bin/hbase shell
+CMD bash bin/start-hbase.sh && sleep 10 && bash bin/hbase shell
 
